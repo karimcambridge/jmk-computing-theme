@@ -186,7 +186,7 @@ a:hover, a:focus {
 }
 
 #header .top-header .header-logo:hover {
-	color: #f1d204;
+	color: #000; /*#f1d204*/
 	text-decoration: none;
 }
 
@@ -357,6 +357,10 @@ a:hover, a:focus {
 #header .bottom-header.blog p {
 	margin-bottom: 0;
 	color: #fff;
+}
+
+#header .bottom-header.blog h1 {
+	color: #000;
 }
 
 #header .bottom-header h1 {

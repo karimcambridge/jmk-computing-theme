@@ -5,7 +5,7 @@ class Illdy {
 
 	public $recommended_plugins = array(
 		'kiwi-social-share'         => array(
-			'recommended' => true,
+			'recommended' => false,
 		),
 		'contact-form-7'            => array(
 			'recommended' => false,
