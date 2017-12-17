@@ -13,3 +13,7 @@ Text Domain: illdy
 This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
 */
+body #header .top-header .header-navigation ul li a { color: #000; } 
+body #header .top-header .header-navigation ul li a:hover, body #header .top-header .header-navigation ul li:hover a { color: #FF3838; } 
+body { min-height: 100%; display: grid; grid-template-rows: 1fr auto; } 
+body #footer { padding: 0; } .footer { grid-row-start: 2; grid-row-end: 3; }

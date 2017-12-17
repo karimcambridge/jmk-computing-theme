@@ -310,13 +310,16 @@ a:hover, a:focus {
 }
 
 #header .top-header .header-navigation ul li a {
-	color: #fff;
+	color: #000;
 	font-size: 16px;
 	line-height: 26px;
 }
+#header .top-header .header-navigation ul li:hover {
+	color: #FF3838;
+}
 
 #header .top-header .header-navigation ul li:hover a {
-	color: #ffde00;
+	color: #FF3838;
 	text-decoration: none;
 }
 
@@ -350,6 +353,7 @@ a:hover, a:focus {
 .row-404 .content-404 {
 	margin: 40px 0 30px;
 }
+
 #header .bottom-header.blog p {
 	margin-bottom: 0;
 	color: #fff;
@@ -360,7 +364,7 @@ a:hover, a:focus {
     line-height: 84px;
     font-weight: 700;
     font-size: 80px;
-    color: #fff;
+    color: #000;
     font-family: "Poppins";
 }
 #header .bottom-header h1 span {
