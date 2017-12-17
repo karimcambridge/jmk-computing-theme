@@ -54,6 +54,7 @@ if ( ( is_single() || is_page() || is_archive() ) && get_theme_mod( 'illdy_archi
 <head>
 	<meta charset="<?php bloginfo( 'charset' ); ?>" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<meta name="keywords"  content="cloud based services, web design, website design, create a website, website builder, web design company, website developer, website consultant, web design consultant, consulting companies, consulting company, business consulting, it consultant website, web development consultant, it support, it services, computing services, technical consultant, it consulting services, graphic designing, graphic design, graphic art, visual design, web graphic design, computer graphic design, business card design, custom business cards, custom software development, software development services, custom software solutions, custom made software, software development company, software design company " />
 	<?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
